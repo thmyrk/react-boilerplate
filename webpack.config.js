@@ -30,7 +30,7 @@ module.exports = {
       {
         loader: 'babel-loader',
         query: {
-          presets: ['react', '@babel/preset-env']
+          presets: ['@babel/preset-react', '@babel/preset-env']
         },
         test: /\.jsx?$/,
         exclude: /(node_modules|bower_components)/
